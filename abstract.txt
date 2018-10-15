@@ -1,3 +1,11 @@
+Versioned executable user documentation for in-development science tools
+========================================================================
+
+Catherine Boisson1, José Enrique Ruiz2, Christoph Deil3, Axel Donath3 and Bruno Khelifi4 for the Gammapy team.
+
+1 LUTH - Observatoire de Paris, 2 Instituto de Astrofísica de Andalucía - CSIC, 3 Max-Planck-Institut für Kernphysik,
+4 APC - AstroParticule et Cosmologie, Université Paris Diderot.
+
 One key aspect of software development is feedback from users and beta-testers. This community is not always aware of the
 developments undertaken in the code base, neither they use the tools and practices followed by the developers to deal with
 a non-stable software in continuous evolution. The open-source Python package for gamma-ray astronomy Gammapy, provides 
