@@ -6,10 +6,4 @@ Catherine Boisson1, José Enrique Ruiz2, Christoph Deil3, Axel Donath3 and Bruno
 1 LUTH - Observatoire de Paris, 2 Instituto de Astrofísica de Andalucía - CSIC, 3 Max-Planck-Institut für Kernphysik,
 4 APC - AstroParticule et Cosmologie, Université Paris Diderot.
 
-One key aspect of software development is feedback from users and beta-testers. This community is not always aware of the
-developments undertaken in the code base, neither they use the tools and practices followed by the developers to deal with
-a non-stable software in continuous evolution. The open-source Python package for gamma-ray astronomy Gammapy, provides 
-its beta-tester user community with versioned reproducible environments and executable documentation, in the form of Jupyter
-notebooks tutorials and virtual environments technologies that are versioned coupled with the code base. We believe this 
-set-up greatly improves the user experience for a software in prototyping phase, as well as providing an up-to-date
-documentation and a good workflow for developers.
+One key aspect of software development is feedback from users and beta- testers. This community is not always aware of the developments undertaken in the code base, neither they use the tools and practices followed by the developers to deal with a non-stable software in continuous evolution. The open-source Python package for gamma-ray astronomy Gammapy, provides its beta-tester user community with ver- sioned reproducible environments and executable documentation, in the form of Jupyter notebooks tutorials and virtual environments technologies that are versioned coupled with the code base. We believe this set-up greatly improves the user experience for a software in prototyping phase, as well as providing a good workflow to maintain an up-to-date documentation.

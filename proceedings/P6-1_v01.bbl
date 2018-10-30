@@ -1,0 +1,55 @@
+\begin{thebibliography}{}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{{Deil} et~al.(2017){Deil}, {Donath}, {Owen}, {Terrier}, {B{\"u}hler},
+  \& {Armstrong}}]{2017ascl.soft11014D}
+{Deil}, C., {Donath}, A., {Owen}, E., {Terrier}, R., {B{\"u}hler}, R., \&
+  {Armstrong}, T. 2017, {Gammapy: Python toolbox for gamma-ray astronomy},
+  Astrophysics Source Code Library. \eprint{1711.014}
+
+\bibitem[{{Greenfield} et~al.(2013){Greenfield}, {Robitaille}, {Tollerud},
+  {Aldcroft}, {Barbary}, {Barrett}, {Bray}, {Crighton}, {Conley}, {Conseil},
+  {Davis}, {Deil}, {Dencheva}, {Droettboom}, {Ferguson}, {Ginsburg},
+  {Grollier}, {Moritz G{\"u}nther}, {Hanley}, {Hsu}, {Kerzendorf}, {Kramer},
+  {Lian Lim}, {Muna}, {Nair}, {Price-Whelan}, {Shiga}, {Singer}, {Taylor},
+  {Turner}, {Woillez}, \& {Zabalza}}]{2013ascl.soft04002G}
+{Greenfield}, P., {Robitaille}, T., {Tollerud}, E., {Aldcroft}, T., {Barbary},
+  K., {Barrett}, P., {Bray}, E., {Crighton}, N., {Conley}, A., {Conseil}, S.,
+  {Davis}, M., {Deil}, C., {Dencheva}, N., {Droettboom}, M., {Ferguson}, H.,
+  {Ginsburg}, A., {Grollier}, F., {Moritz G{\"u}nther}, H., {Hanley}, C.,
+  {Hsu}, J.~C., {Kerzendorf}, W., {Kramer}, R., {Lian Lim}, P., {Muna}, D.,
+  {Nair}, P., {Price-Whelan}, A., {Shiga}, D., {Singer}, L., {Taylor}, J.,
+  {Turner}, J., {Woillez}, J., \& {Zabalza}, V. 2013, {Astropy: Community
+  Python library for astronomy}, Astrophysics Source Code Library.
+  \eprint{1304.002}
+
+\bibitem[{Kluyver et~al.(2016)Kluyver, Ragan-Kelley, P{\'e}rez, Granger,
+  Bussonnier, Frederic, Kelley, Hamrick, Grout, Corlay, Ivanov, Avila, Abdalla,
+  \& Willing}]{Kluyver:2016aa}
+Kluyver, T., Ragan-Kelley, B., P{\'e}rez, F., Granger, B., Bussonnier, M.,
+  Frederic, J., Kelley, K., Hamrick, J., Grout, J., Corlay, S., Ivanov, P.,
+  Avila, D., Abdalla, S., \& Willing, C. 2016, in Positioning and Power in
+  Academic Publishing: Players, Agents and Agendas, edited by F.~Loizides, \&
+  B.~Schmidt (IOS Press), 87
+
+\bibitem[{Oliphant(2006)}]{oliphant_guide_2006}
+Oliphant, T. 2006, Guide to {NumPy} (Trelgol Publishing)
+
+\bibitem[{{P}roject {J}upyter et~al.(2018){P}roject {J}upyter, {M}atthias
+  {B}ussonnier, {J}essica {F}orde, {J}eremy {F}reeman, {B}rian {G}ranger, {T}im
+  {H}ead, {C}hris {H}oldgraf, {K}yle {K}elley, {G}ladys {N}alvarte, {A}ndrew
+  {O}sheroff, {P}acer, {Y}uvi {P}anda, {F}ernando {P}erez, {B}enjamin~{R}agan
+  {K}elley, \& {C}arol {W}illing}]{project_jupyter-proc-scipy-2018}
+{P}roject {J}upyter, {M}atthias {B}ussonnier, {J}essica {F}orde, {J}eremy
+  {F}reeman, {B}rian {G}ranger, {T}im {H}ead, {C}hris {H}oldgraf, {K}yle
+  {K}elley, {G}ladys {N}alvarte, {A}ndrew {O}sheroff, {P}acer, M., {Y}uvi
+  {P}anda, {F}ernando {P}erez, {B}enjamin~{R}agan {K}elley, \& {C}arol
+  {W}illing 2018, in {P}roceedings of the 17th {P}ython in {S}cience
+  {C}onference, edited by {F}atih {A}kici, {D}avid {L}ippa, {D}illon
+  {N}iederhut, \& M.~{P}acer, 113
+
+\end{thebibliography}

@@ -1,0 +1,103 @@
+
+\documentclass[11pt,twoside]{article}
+
+% Do NOT use ANY packages other than asp2014. 
+\usepackage{asp2014}
+
+\aspSuppressVolSlug
+\resetcounters
+
+% References must all use BibTeX entries in a .bibfile.
+% References must be cited in the text using \citet{} or \citep{}.
+% Do not use \cite{}.
+% See ManuscriptInstructions.pdf for more details
+\bibliographystyle{asp2014}
+
+% The ``markboth'' line sets up the running heads for the paper.
+% 1 author: "Surname"
+% 2 authors: "Surname1 and Surname2"
+% 3 authors: "Surname1, Surname2, and Surname3"
+% >3 authors: "Surname1 et al."
+% Replace ``Short Title'' with the actual paper title, shortened if necessary.
+% Use mixed case type for the shortened title
+% Ensure shortened title does not cause an overfull hbox LaTeX error
+% See ASPmanual2010.pdf 2.1.4  and ManuscriptInstructions.pdf for more details
+\markboth{Ruiz et al.}{Versioned executable user documentation for in-development science tools}
+
+\begin{document}
+
+\title{Versioned executable user documentation for in-development science tools}
+
+% Note the position of the comma between the author name and the 
+% affiliation number.
+% Author names should be separated by commas.
+% The final author should be preceded by "and".
+% Affiliations should not be repeated across multiple \affil commands. If several
+% authors share an affiliation this should be in a single \affil which can then
+% be referenced for several author names.
+% See ManuscriptInstructions.pdf and ASPmanual2010.pdf 3.1.4 for more details
+\author{J. E. Ruiz$^1$, C. Boisson$^2$, C. Deil$^3$, A. Donath$^3$ and B. Khelifi$^4$}
+\affil{$^1$Instituto de Astrof\'isica de Andaluc\'ia - CSIC, Granada, Spain; \email{jer@iaa.es}}
+\affil{$^2$LUTH - Observatoire de Paris, Paris, France}
+\affil{$^3$Max-Planck-Institut f\"ur Kernphysik, Heidelberg, Germany}
+\affil{$^4$APC - AstroParticule et Cosmologie, Universit\'e Paris Diderot, Paris, France}
+
+
+% This section is for ADS Processing.  There must be one line per author.
+\paperauthor{os\'e Enrique Ruiz}{jer@iaa.es}{0000-0003-3274-4445}{Instituto de Astrof\'isica de Andaluc\'a - CSIC}{Departmento de Astronom\'ia Extragal\'actica}{Granada}{Spain}{18008}{Spain}
+
+
+\begin{abstract}
+One key aspect of software development is feedback from users and beta-testers. This community is not always aware of the
+developments undertaken in the code base, neither they use the tools and practices followed by the developers to deal with
+a non-stable software in continuous evolution.  \emph{The open-source Python package for gamma-ray astronomy Gammapy, provides 
+its beta-tester user community with versioned reproducible environments and executable documentation, in the form of Jupyter
+notebooks tutorials and virtual environments technologies that are versioned coupled with the code base.} We believe this 
+set-up greatly improves the user experience for a software in prototyping phase, as well as providing a good workflow to
+maintain an up-to-date documentation.
+\end{abstract}
+
+% These lines show examples of subject index entries. At this stage these have to commented
+% out, and need to be on separate lines. Eventually, they will be automatically uncommented
+% and used to generate entries in the Subject Index at the end of the Proceedings volume.
+% Don't leave these in! - replace them with ones relevant to your paper.
+%\ssindex{conference!ADASS 2017}
+%\ssindex{organisations!ASP}
+
+\section{The Gammapy package}
+
+Gammapy\footnote{\url{https://gammapy.org}} \citep{2017ascl.soft11014D} is a community-developed, open-source Python package for high-level $\gamma$-ray data analysis built on Numpy \citep{oliphant_guide_2006} and Astropy \citep{2013ascl.soft04002G}. It provides functionalities to create sky images, spectra, light curves and source catalogs from event lists and instrument response information, determining the morphology, flux and position of $\gamma$-ray sources. 
+
+Gammapy has been proposed as a prototype for the Cherenkov Telescope Array (CTA) science tools, and it has been used to simulate and analyse data from the main IACT (Imaging Air Cherenkov Telescopes) facilities like H.E.S.S., MAGIC, and VERITAS, as well as Fermi-LAT data and simulated observations for CTA.  
+
+\section{The user role for \textit{in-development} software}
+
+The Gammapy package is a software still in evolution, rapidly changing, where many developments are ongoing. As such it is a place for Python-coding $\gamma$-ray astronomers to share their code, contribute and collaborate. So far, developer coding sprints have been scheduled to happen with the same regularity of the user hands-on tutorials held in CTA consortium meetings. Users and potential contributors benefit from the documentation of the Gammapy API, as well as from a collection of tutorials in the form of Jupyter notebooks \citep{Kluyver:2016aa}, where both need to be updated frequently. The rise in the contributor and user base together with a high development activity, have revealed the need for reproducible executable tutorials, versioned coupled with the code base and integrated into the published documentation. In this way, users could easily bring to life, and re-use for their own purposes, the different versions of the published tutorials. 
+
+\articlefigure[width=0.5\textwidth]{P6-1_f1.eps}{fig1}{Gammapy is a Python package for high-level $\gamma$-ray data analysis. Using event lists, exposures and point spread functions as input you can use it to generate science results such as images, spectra, light curves or source catalogues.}
+
+
+\section{Integrating versioned and executable user documentation}
+
+The source documentation, the tutorials, and the code base are maintained in a single versioned Github repository\footnote{\url{https://github.com/gammapy/gammapy}}.The Jupyter  notebooks are stored trimmed of their output cells, which greatly helps in difference comparisons during the contribution review. The code base and tutorials are continuously built and tested in different virtual environments using the continuous integration service Travis CI.
+
+The documentation is generated using Sphinx, where the empty notebooks are previously executed and filled with \textit{jupyter nbconvert}, and then integrated into the documentation with the \textit{nbsphinx} extension. The web published tutorials\footnote{\url{https://docs.gammapy.org/0.8/tutorials.html}}, versioned coupled with the code base, provide links to versioned spaces of myBinder \citep{project_jupyter-proc-scipy-2018}, where they may be executed in virtual execution environments hosted in the myBinder infrastructure. These virtual environments are built with the help of versioned \textit{Dockerfiles} placed at the top level of the Github repository. 
+
+A small collection of versioned \textit{tutorial bundles} composed of Jupyter notebooks, a \textit{conda} file environment, and the datasets needed, may be downloaded to the user desktop using the {\tt gammapy download} command. For each of this bundles we specify, in centralized index lookup files, the required computing environment, which tutorials and datasets to provide, and where to fetch them from. Deterministic computing environments are defined in the form of \textit{conda} configuration files, with pinned version numbers for each dependency package. 
+
+\articlefigure{P6-1_f2.eps}{fig2}{Technical set-up for building and shipping versioned executable user documentation. The maintainers build the documentation from empty-output Jupyter notebooks using Sphinx, and publish the generated files in a versioned Github repository. The published tutorials provide links to access myBinder spaces where the notebooks may be executed. These Jupyter notebooks may be also downloaded to the user desktop, together with the reproducible \textit{conda} virtual environments and the datasets needed.}
+
+\section{Command line tools and functionalities}
+
+We have developed a set of command line tools for users to download the versioned executable \textit{tutorial bundles}, and for documentation maintainers to prepare and validate them. The {\tt gammapy download} command provides users with the means to retrieve the \textit{tutorial bundles} or any tutorial-related asset (i.e. dataset or Jupyter notebook) for a specific version of the Gammapy package. 
+
+On the other side, the {\tt gammapy jupyter} command  provides documentation maintainers with a tool to seamlessly manage and integrate Jupyter notebooks into the documentation. This command provides functionalities for execution validation, code formatting, output cells stripping and straight forward execution of the notebooks. We have implemented our own solution for execution validation of notebooks: these are executed with \textit{jupyter nbconvert}, the output cells parsed and, in case an error is found in one of the output cells, validation fails. In the documentation building process, it is possible to add or skip the notebooks integration step.
+
+\articlefigure{P6-1_f3.eps}{fig3}{Users may retrieve versioned executable tutorials, or specific related digital assets like notebooks and datasets, using the {\tt gammapy download} command.}
+
+\acknowledgements The authors would like to thank the communities involved in the following open-source projects:  \textit{Git\footnote{\url{https://git-scm.com}}}, \textit{Travis CI\footnote{\url{https://travis-ci.com}}}, \textit{Anaconda\footnote{\url{https://www.anaconda.com}}}, \textit{conda\footnote{\url{https://conda.io}}}, \textit{conda-forge\footnote{\url{https://conda-forge.org}}}, \textit{Sphinx\footnote{\url{https://www.sphinx-doc.org}}}, and \textit{nbsphinx\footnote{\url{https://github.com/spatialaudio/nbsphinx}}}. The exposed work heavily relies on these software.
+
+
+\bibliography{P6-1}  % For BibTex
+
+\end{document}
