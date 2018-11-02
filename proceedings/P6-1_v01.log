@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.19)  30 OCT 2018 09:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.19)  2 NOV 2018 17:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -763,77 +763,57 @@ LaTeX Font Info:    Font shape `T1/txtt/m/it' in size <9> not available
 [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package epstopdf Info: Source file: <P6-1_f1.eps>
-(epstopdf)                    date: 2018-10-26 14:07:59
-(epstopdf)                    size: 534059 bytes
-(epstopdf)             Output file: <P6-1_f1-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-10-29 08:45:07
-(epstopdf)                    size: 191469 bytes
-(epstopdf)             Command: <repstopdf --outfile=P6-1_f1-eps-converted-to.p
-df P6-1_f1.eps>
-(epstopdf)             \includegraphics on input line 77.
-Package epstopdf Info: Output file is already uptodate.
-
-<P6-1_f1-eps-converted-to.pdf, id=34, 385.44pt x 244.915pt>
-File: P6-1_f1-eps-converted-to.pdf Graphic file (type pdf)
-
-<use P6-1_f1-eps-converted-to.pdf>
-Package pdftex.def Info: P6-1_f1-eps-converted-to.pdf used on input line 77.
-(pdftex.def)             Requested size: 189.70874pt x 120.5438pt.
-Package epstopdf Info: Source file: <P6-1_f2.eps>
-(epstopdf)                    date: 2018-10-26 13:55:56
-(epstopdf)                    size: 533884 bytes
-(epstopdf)             Output file: <P6-1_f2-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-10-29 08:45:08
-(epstopdf)                    size: 315791 bytes
-(epstopdf)             Command: <repstopdf --outfile=P6-1_f2-eps-converted-to.p
-df P6-1_f2.eps>
-(epstopdf)             \includegraphics on input line 88.
-Package epstopdf Info: Output file is already uptodate.
-
-<P6-1_f2-eps-converted-to.pdf, id=41, 481.8pt x 381.425pt>
-File: P6-1_f2-eps-converted-to.pdf Graphic file (type pdf)
-
-<use P6-1_f2-eps-converted-to.pdf>
-Package pdftex.def Info: P6-1_f2-eps-converted-to.pdf used on input line 88.
-(pdftex.def)             Requested size: 360.44545pt x 285.35799pt.
- [2 <./P6-1_f1-eps-converted-to.pdf>]
-Overfull \hbox (1.83505pt too wide) in paragraph at lines 94--95
+Overfull \hbox (1.83505pt too wide) in paragraph at lines 89--90
 []\T1/txr/m/n/10.95 On the other side, the \T1/txtt/m/n/10.95 gammapy jupyter \
 T1/txr/m/n/10.95 com-mand pro-vides doc-u-men-ta-tion main-
  []
 
-Package epstopdf Info: Source file: <P6-1_f3.eps>
+[2]
+Package epstopdf Info: Source file: <P6-1_f1.eps>
+(epstopdf)                    date: 2018-10-26 13:55:56
+(epstopdf)                    size: 533884 bytes
+(epstopdf)             Output file: <P6-1_f1-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-11-02 09:05:17
+(epstopdf)                    size: 315791 bytes
+(epstopdf)             Command: <repstopdf --outfile=P6-1_f1-eps-converted-to.p
+df P6-1_f1.eps>
+(epstopdf)             \includegraphics on input line 91.
+Package epstopdf Info: Output file is already uptodate.
+ <P6-1_f1-eps-converted-to.pdf, id=55, 481.8pt x 381.425pt>
+File: P6-1_f1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use P6-1_f1-eps-converted-to.pdf>
+Package pdftex.def Info: P6-1_f1-eps-converted-to.pdf used on input line 91.
+(pdftex.def)             Requested size: 360.44545pt x 285.35799pt.
+Package epstopdf Info: Source file: <P6-1_f2.eps>
 (epstopdf)                    date: 2018-10-26 13:55:42
 (epstopdf)                    size: 209258 bytes
-(epstopdf)             Output file: <P6-1_f3-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-10-29 08:45:08
+(epstopdf)             Output file: <P6-1_f2-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-11-02 09:05:17
 (epstopdf)                    size: 125097 bytes
-(epstopdf)             Command: <repstopdf --outfile=P6-1_f3-eps-converted-to.p
-df P6-1_f3.eps>
-(epstopdf)             \includegraphics on input line 96.
+(epstopdf)             Command: <repstopdf --outfile=P6-1_f2-eps-converted-to.p
+df P6-1_f2.eps>
+(epstopdf)             \includegraphics on input line 93.
 Package epstopdf Info: Output file is already uptodate.
-<P6-1_f3-eps-converted-to.pdf, id=58, 361.35pt x 121.45375pt>
-File: P6-1_f3-eps-converted-to.pdf Graphic file (type pdf)
 
-<use P6-1_f3-eps-converted-to.pdf>
-Package pdftex.def Info: P6-1_f3-eps-converted-to.pdf used on input line 96.
+<P6-1_f2-eps-converted-to.pdf, id=56, 361.35pt x 121.45375pt>
+File: P6-1_f2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use P6-1_f2-eps-converted-to.pdf>
+Package pdftex.def Info: P6-1_f2-eps-converted-to.pdf used on input line 93.
 (pdftex.def)             Requested size: 360.44545pt x 121.15135pt.
- (./P6-1_v01.bbl
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 
 Overfull \hbox (21.08908pt too wide) has occurred while \output is active
 [][] \T1/txr/m/sl/10.95 Versioned executable user documentation for in-developm
 ent science tools \T1/txr/m/n/10.95 3
  []
 
-[3 <./P6-1_f2-eps-converted-to.pdf>])
+[3 <./P6-1_f1-eps-converted-to.pdf> <./P6-1_f2-eps-converted-to.pdf>]
+(./P6-1_v01.bbl)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 103.
- [4 <./P6-1_f3-eps-converted-to.pdf>]
+ [4]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 103.
-
-(./P6-1_v01.aux)
+ (./P6-1_v01.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 103.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 103.
 Package rerunfilecheck Info: File `P6-1_v01.out' has not changed.
@@ -841,13 +821,13 @@ Package rerunfilecheck Info: File `P6-1_v01.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 103.
  ) 
 Here is how much of TeX's memory you used:
- 7816 strings out of 492995
- 108805 string characters out of 6132704
- 200803 words of memory out of 5000000
- 11175 multiletter control sequences out of 15000+600000
- 66180 words of font info for 127 fonts, out of 8000000 for 9000
+ 7811 strings out of 492995
+ 108677 string characters out of 6132704
+ 200458 words of memory out of 5000000
+ 11170 multiletter control sequences out of 15000+600000
+ 65940 words of font info for 126 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,6n,32p,997b,376s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,6n,32p,993b,368s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2017/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/local/texlive
 /2017/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2017/t
@@ -857,10 +837,10 @@ nts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/
 urw/times/utmbi8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times
 /utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmr8a.pf
 b></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on P6-1_v01.pdf (4 pages, 711402 bytes).
+Output written on P6-1_v01.pdf (4 pages, 522757 bytes).
 PDF statistics:
- 138 PDF objects out of 1000 (max. 8388607)
- 115 compressed objects within 2 object streams
- 27 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 140 PDF objects out of 1000 (max. 8388607)
+ 119 compressed objects within 2 object streams
+ 29 named destinations out of 1000 (max. 500000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
