@@ -1,9 +1,14 @@
 Versioned executable user documentation for in-development science tools
 ========================================================================
 
-Catherine Boisson1, José Enrique Ruiz2, Christoph Deil3, Axel Donath3 and Bruno Khelifi4 for the Gammapy team.
+José Enrique Ruiz1, Catherine Boisson2, Christoph Deil3, Axel Donath3 and Bruno Khelifi4 for the Gammapy team.
 
-1 LUTH - Observatoire de Paris, 2 Instituto de Astrofísica de Andalucía - CSIC, 3 Max-Planck-Institut für Kernphysik,
+1 Instituto de Astrofísica de Andalucía - CSIC, 2 LUTH - Observatoire de Paris, 3 Max-Planck-Institut für Kernphysik,
 4 APC - AstroParticule et Cosmologie, Université Paris Diderot.
 
-One key aspect of software development is feedback from users and beta- testers. This community is not always aware of the developments undertaken in the code base, neither they use the tools and practices followed by the developers to deal with a non-stable software in continuous evolution. The open-source Python package for gamma-ray astronomy Gammapy, provides its beta-tester user community with ver- sioned reproducible environments and executable documentation, in the form of Jupyter notebooks tutorials and virtual environments technologies that are versioned coupled with the code base. We believe this set-up greatly improves the user experience for a software in prototyping phase, as well as providing a good workflow to maintain an up-to-date documentation.
+One key aspect of software development is feedback from users. This community is not always aware of the modifications 
+made in the code base, neither they use the tools and practices followed by the developers to deal with a non-stable 
+software in continuous evolution. The open-source Python package for gamma-ray astronomy Gammapy, provides its user 
+community with versioned computing environments and executable documentation, in the form of Jupyter notebooks and virtual
+environment technologies that are versioned coupled with the code base. We find that this set-up greatly improves the user
+experience for a software in prototyping phase, as well as provides a good workflow to maintain an up-to-date documentation.
